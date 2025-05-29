@@ -1,21 +1,20 @@
-print(14%3)
+이름 = "김오즈"
+나이 = 14
+소속 = "마법중"
+등급 = 3
 
-print(float(17//3))
-print(int(10)-9)
-print(float(10)-2)
-#주석
+print(type(이름))
 
-print(10//3)
-print(int(5.7))
-print(float(3))
-print(7%2)
+print(type(float(10)-2))
+print(type(3.0 + 7.0))
 
-print(3/2)
+과일 = 'apple'
+print(과일.count('p'))
 
-print(float(7))      
-print(float("3.14"))  
-print(float(3 + 2))   
+print(8 == 2 * 4,
+    4 != 2 + 2,
+    2 * 3 is 3 + 3,
+    8 is 4 * 2.0,
+    5 is 6 - 1.1)
 
-print(divmod(17, 4))
-
-print(pow(2,3))
+print('text' and True)
