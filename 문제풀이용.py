@@ -18,3 +18,6 @@ print(8 == 2 * 4,
     5 is 6 - 1.1)
 
 print('text' and True)
+
+x = int(input())
+print(x % sum(int(i) for i in str(x)) == 0)
