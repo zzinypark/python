@@ -1,10 +1,8 @@
-def 함수0(num):
-    return num * 2
-def 함수1(num):
-    return 함수0(num + 2)
-def 함수2(num):
-    num =  num + 10
-    return 함수1(num)
+a , b = input().split()
+def longer_string(a,b):
+    if len(a) >= len(b):
+        print(a)
+    else:
+        print(b)
 
-c = 함수2(2)
-print(c)
+longer_string(a,b)
